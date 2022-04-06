@@ -1,0 +1,35 @@
+## tagger training invoked at Tue Apr 05 23:37:25 CEST 2022 with arguments:
+                   model = myFrench-ud.tagger
+                    arch = left3words,naacl2003unknowns,unicodeshapes(-1,1)
+            wordFunction = 
+               trainFile = format=TSV,wordColumn=1,tagColumn=3,fr-ud-train.conllu3
+         closedClassTags = 
+ closedClassTagThreshold = 40
+ curWordMinFeatureThresh = 2
+                   debug = false
+             debugPrefix = 
+            tagSeparator = /
+                encoding = UTF-8
+              iterations = 200
+                    lang = french
+    learnClosedClassTags = false
+        minFeatureThresh = 5
+           openClassTags = 
+rareWordMinFeatureThresh = 10
+          rareWordThresh = 8
+                  search = iis
+                    sgml = false
+            sigmaSquared = 0.5
+                   regL1 = 1.0
+               tagInside = 
+                tokenize = true
+        tokenizerFactory = 
+        tokenizerOptions = 
+                 verbose = false
+          verboseResults = true
+    veryCommonWordThresh = 250
+                xmlInput = 
+              outputFile = 
+            outputFormat = slashTags
+     outputFormatOptions = 
+                nthreads = 1
